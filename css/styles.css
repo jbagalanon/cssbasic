@@ -1,0 +1,17 @@
+/* . = class
+# = id 
+div = group multiple content
+span = group inline content
+*/
+
+.inner {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.outer {
+  width: 33%;
+  height: 33%;
+  background: red;
+}
