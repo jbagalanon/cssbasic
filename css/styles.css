@@ -7,29 +7,34 @@ em - relative, depends on parent
 vh = viewport height
 vw = viewport width
 
+ouline = property draws outside the elemtn
+
 this is the padding arrangement of border, padding and margin 
            top right bottom left
  
 By default height = auto, min-height; overflow
 */
 
-h1,
-p {
-  color: white;
+.links {
+  margin: 3rem;
+}
+a {
+  background: #689f3f;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0 20px;
 }
 
-h1 {
-  background: red;
-  padding: 10px;
-  border: 15px solid black;
-  border-radius: 10%;
+#one {
+  border: 0.2rem solid #222;
 }
 
-p {
-  background: blue;
-  padding: 15px;
-  border: 15px dotted green;
-  border-radius: 50%;
-  text-align: center;
-  margin-top: -50px;
+#two {
+  /* border: 0.2rem solid #222; */
+  border-radius: 0.5rem;
+  outline-color: #222;
+  outline-style: solid;
+  outline-offset: -10px;
 }
