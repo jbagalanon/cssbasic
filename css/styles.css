@@ -23,4 +23,11 @@ h1 {
 
 p {
   background: blue;
+  /* padding: 20px;
+  /* represents top and bottom and left and right 
+  padding: 30px 60px; */
+
+  /* this is the padding arrangement 
+  padding: top right bottom left */
+  padding: 10px 10px 20px 110px;
 }
