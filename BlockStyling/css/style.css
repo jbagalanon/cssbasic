@@ -1,0 +1,10 @@
+.block {
+  background: blue;
+  color: white;
+}
+
+.inline {
+  background: red;
+  color: white;
+  display: inline;
+}
