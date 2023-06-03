@@ -13,13 +13,17 @@ ul li {
   /* this is for the removal of bullet list */
   list-style-type: none;
 }
-
-ul li a {
-  color: #f15025;
-}
-
 ul a {
   color: blue;
 }
+
+ul li a {
+  color: #f15025;
+  text-decoration: none;
+  background: #222;
+  display: block;
+  padding: 5px;
+}
+
 .navbar {
 }
