@@ -1,18 +1,33 @@
-.block {
-  background: blue;
+/*
+display:none - remove from the flow, hide the element collapse the space
+opacity:0 - hide the element, but still take up space 
+visibility:hidden - hide the elemen and presereve the space
+
+*/
+
+div {
+  background-color: #f15025;
+  margin: 10px;
   color: white;
-  width: 300px;
-  margin: 1rem auto;
-  /* margin-left: auto; */
+  font-size: 1.3rem;
 }
 
-.inline {
-  background: red;
-  color: white;
-  /* display: block;
-  display: inline; */
+.none {
+  display: none;
 }
 
-body {
-  text-align: center;
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.visibility {
+  visibility: visible;
 }
