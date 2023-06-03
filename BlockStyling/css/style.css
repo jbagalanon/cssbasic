@@ -10,6 +10,7 @@
 .box-1 {
   background-color: #f00;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .box-2 {
